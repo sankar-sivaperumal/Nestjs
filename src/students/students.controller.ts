@@ -31,3 +31,4 @@ export class StudentsController {
     return this.svc.remove(+id);
   }
 }
+
