@@ -24,7 +24,7 @@ export class StudentsService {
   update(id: number, patch: Partial<Student>) {
     return this.repo.save({ ...patch, student_id: id });
   }
-
+  
   remove(id: number) {
     return this.repo.delete({ student_id: id });
   }
