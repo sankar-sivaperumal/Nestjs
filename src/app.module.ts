@@ -8,7 +8,6 @@ import { Student } from './students/student.entity';
 import { Course } from './courses/course.entity';
 import { Enrollment } from './enrollments/enrollment.entity';
 
-
   @Module({
   imports: [
     TypeOrmModule.forRoot({
