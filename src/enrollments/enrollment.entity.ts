@@ -18,3 +18,4 @@ export class Enrollment {
   @Column({ type: 'decimal', precision: 5, scale: 2, nullable: true })
   marks?: number;
 }
+
